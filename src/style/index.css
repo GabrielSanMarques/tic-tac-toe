@@ -1,0 +1,51 @@
+body {
+    background-color: #444;
+    color: white;
+    margin: 20px;
+    font: 32px "Century Gothic", Futura, sans-serif;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    background-color: skyblue;
+    margin: 10px;
+    padding: 20px;
+}
+
+.board-row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.square {
+    background-color: #444;
+    color: white;
+    border: 1px solid #999;
+    padding: 0;
+    font-size: 84px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.square:hover {
+    background-color: #AAA;
+}
+
+.square:focus {
+    outline: none;
+    background-color: #222 !important;
+}
+
+.status {
+    margin: 20px;
+    font-size: 24px;
+}
+
+
+
